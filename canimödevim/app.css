@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&display=swap');
+*, *:before, *::after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://wallpaper.dog/large/5570110.jpg) no-repeat;
+}
+
+.container {
+    background-color: #222;
+    color: #fff;
+    padding:2rem;
+}
+
+.container h3{
+    margin-bottom:2rem;
+}
+.form-control{
+    margin-bottom:2rem;
+    position:relative;
+}
+.form-control input, 
+.form-control textarea {
+    padding: 0.5rem;
+    width: 100%;
+    background: transparent;
+    border:0;
+    border-bottom:1px solid #fff;
+    color:#fff;
+    font-size:1rem;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition:300ms all;
+    -o-transition: 300ms all;
+
+}
+.form-control input~label, 
+.form-control textarea~label {
+    position:absolute;
+    left:0;
+    top:0;
+    pointer-events: none;
+    padding: 0.5rem;
+    transition: 300ms all;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition:300ms all;
+    -o-transition: 300ms all;
+
+
+}
+
+.form-control input:focus~label, 
+.form-control textarea:focus~label {
+    top:-1,5rem;
+    color:rgb(176,109,238);
+    font-size:0.8rem;
+}
+.form-control input:focus~label, 
+.form-control textarea:focus~label, 
+.form-control input:valid~label, 
+.form-control textarea:valid~label {
+    top:-1,5rem;
+    color:rgb(176,109,238);
+    font-size:0.8rem;
+    
+}
+
+.form-control input[type="submit"]{
+    background-color: blueviolet;
+    border:0;
+    margin-top:2rem;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition:300ms all;
+    -o-transition: 300ms all;
+    padding: 1rem 0rem;
+}
+
+.form-control input[type="submit"]:hover{
+    background-color: rgb(176, 109, 238);
+    
+}
+
