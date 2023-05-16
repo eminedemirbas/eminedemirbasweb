@@ -1,0 +1,28 @@
+
+
+.isim{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding-left: 160px;
+}
+.iletişim{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+    font-size: 19px;
+    font-style: oblique;
+    
+}
+.beceriler{
+    font-size: 27px;
+    padding-left: 30px;
+}
+.maddeler{
+    font-size: 20px;
+}
+.eğitim{
+    font-size: 50px;
+    padding-right: 100px;
+}
+.okul{
+    font-size: 25px;
+    padding: 0px;
+}
