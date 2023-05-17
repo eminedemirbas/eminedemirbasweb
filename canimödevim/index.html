@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,22 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="indexx.php">
     <title>Document</title>
     <style></style>
 </head>
 <body>
     
     <div class="login-wrapper">
-        <form action="" class="form">
+        <form method="POST" action="" class="form">
             <img src="https://www.animationmagazine.net/images/articles/mr_moon_150.gif" alt="" style="border-radius: 50%;">
             <h2>Giriş Yap</h2>
             <div class="input-group">
-                <input type="text" name="login-user" id="loginuser" required>
-                <label for="loginUser">Kullanıcı Adı</label>
+                <input type="text" name="username" id="username" required>
+                <label for="username">Kullanıcı Adı</label>
             </div>
             <div class="input-group">
-                <input type="password" name="loginPassword" id="loginPassword" required>
-                <label for="loginPassword">Şifre</label>
+                <input type="password" name="password" id="password" required>
+                <label for="password">Şifre</label>
             </div>
             <input type="submit" value="Giriş" class="submit-btn">
             <a href="#forgot-pw" class="forgot-pw">Şifremi Unuttum.</a>
