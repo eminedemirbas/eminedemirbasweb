@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(#636162, #b1afaf);
+    background-image: linear-gradient(#412372, #b1afaf);
     height:122vh;
     font-weight: bold;
     letter-spacing: 2px;
@@ -19,7 +19,7 @@ body{
     top:60%;
 }
 .left{
-    background-color: #fbb03b;
+    background-color: #62287c;
     width:200px;
     height:100%;
     float:left;
@@ -35,8 +35,8 @@ body{
     border-radius: 50%;
     margin-bottom:20px;
     margin-left:60px;
-    border:10px solid #fbb03b;
-    box-shadow:6px 7px 9px 5px  #fbb03b73;
+    border:10px solid #a975ec;
+    box-shadow:6px 7px 9px 5px  #c09cf07e;
 }
 .profile-img img{
     width:100%;
@@ -48,7 +48,7 @@ body{
 .heading{
     background-color: #4d4d4d;
     padding:10px;
-    color:#fbb03b;
+    color:#a975ec;
     text-align:left;
     padding-left: 20px;
     margin-right: -15px;
@@ -144,6 +144,47 @@ h2{
     margin-top: 10px;
 }
 .p3 span{
-    color:#ff9b00;
+    color:#a975ec;
     padding-left: 20px;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+nav{
+    width:100%;
+    height:75px;
+    line-height: 75px;
+    padding:0px 100px;
+    margin-top:1rem;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.288), rgb(238, 245, 228)) ;
+}
+nav .logo p{
+    font-size:30px;
+    font-weight: bold;
+    float:left;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+
+}
+nav ul{
+    float:right;
+}
+nav li{
+    display:inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size:18px;
+    text-transform: uppercase;
+    padding: 0px, 30px;
+    color:white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:rgb(243, 197, 243);
+    transition: all, 0.4s, ease 0s;
 }

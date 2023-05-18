@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(https://wallpaper.dog/large/5570110.jpg) no-repeat;
+    background-color:rgb(105, 60, 146);
 }
 
 .container {
@@ -80,7 +80,7 @@ body {
 }
 
 .form-control input[type="submit"]{
-    background-color: blueviolet;
+    background-color: rgb(115, 68, 158);
     border:0;
     margin-top:2rem;
     cursor:pointer;
@@ -94,7 +94,7 @@ body {
 }
 
 .form-control input[type="submit"]:hover{
-    background-color: rgb(176, 109, 238);
+    background-color: rgb(185, 120, 247);
     
 }
 
