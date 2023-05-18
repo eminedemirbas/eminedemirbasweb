@@ -1,7 +1,7 @@
 <?php
 ob_start();
  
-$user = 'eminee';
+$user = 'emine';
 $pass = '123';
 
 if(isset($_POST['username']) && isset($_POST['password'])){

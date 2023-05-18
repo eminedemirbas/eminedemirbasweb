@@ -9,7 +9,7 @@ nav{
     line-height: 75px;
     padding:0px 100px;
     position: fixed;
-    background-image: linear-gradient(rgb(189, 217, 248), rgb(238, 245, 228)) ;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.288), rgb(238, 245, 228)) ;
 }
 nav .logo p{
     font-size:30px;
