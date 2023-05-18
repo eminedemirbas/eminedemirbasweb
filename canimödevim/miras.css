@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(131, 16, 16);
+}
+.kenar{
+    width:25%;
+    background-color: rgba(255, 255, 255, 0.116);
+    margin:3rem;
+    margin-top:5rem;
+    border-radius: 2%;
+    height: 2295px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size:x-large;
+    float:left;
+
+}
+.başlık{
+    width:50%;
+    background-color: rgba(255, 255, 255, 0.116);
+    margin:3rem;
+    margin-top:5rem;
+    border-radius: 2%;
+    height: 175px;
+    text-align: center;
+    font-size:x-large;
+    float:left;
+    
+}
+.orta{
+    width:50%;
+    background-color: rgba(255, 255, 255, 0.116);
+    margin:2rem;
+    margin-top:1rem;
+    border-radius: 2%;
+    height: 490px;
+    padding-left:1rem;
+    text-align:left;
+    font-size:21px;
+    float:left;
+
+}
+.ortaalt{
+    width:50%;
+    background-color: rgba(255, 255, 255, 0.116);
+    margin:2rem;
+    margin-top:1rem;
+    border-radius: 2%;
+    height: 490px;
+    padding-left:1rem;
+    text-align:left;
+    font-size:21px;
+    float:left;
+
+}
