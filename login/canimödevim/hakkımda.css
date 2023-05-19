@@ -1,0 +1,14 @@
+.deneme{
+    display: flex;
+    height: auto;
+    width: auto;
+    
+}
+
+/*cep telefonu için*/
+
+@media  (max-width:768px){
+    .deneme{flex-wrap:wrap;}
+    .card-mb-4{flex-wrap: wrap;}
+
+}

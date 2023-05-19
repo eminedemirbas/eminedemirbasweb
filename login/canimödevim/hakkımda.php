@@ -85,7 +85,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="deneme">
       <img src="img/voleybol1.png" style=" padding-left:50px; padding-top:5px; ;width: 250px; ">
       <img src="img/voleybol5.jpeg" style=" padding-left:50px; padding-top:5px; width: 250px; ">
       <img src="img/voleybol3.jpeg" style=" padding-left:50px; padding-top:5px; width: 250px; ">
@@ -115,7 +115,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="deneme">
         <img src="img/gezi1.jpeg" style=" padding-left:50px;padding-top:10px;width: 250px; ">
         <img src="img/gezi3.jpeg" style=" padding-left:50px; padding-top:10px; width: 250px; ">
         <img src="img/gezi4.jpeg" style=" padding-left:50px; padding-top:10px; width: 250px; ">
@@ -140,12 +140,12 @@
         </div>
       </div>
 
-      <div>
+      <div class="deneme">
       <img src="img/puzzleyan4.jpg" style=" padding-left:50px;padding-top:10px;width: 250px; ">
       <img src="img/puzzle2.jpeg" style=" padding-left:50px; padding-top:10px; width: 250px; ">
       <img src="img/puzzleyan3.jpeg" style=" padding-left:50px; padding-top:10px; width: 250px; ">
        
-    </div>
+     </div>
 
       <br><br>
 
@@ -167,8 +167,8 @@
       
 <center>
 <div>
-  <img src="img/hocam1.jpg" style="float:left; width:35%; padding-left:7rem">
-      <div class="card" style="width:30%; float:left;background-color: rgba(179, 120, 228, 0.281);">
+  <img class="card-mb-4" src="img/hocam1.jpg" style="float:left; width:35%; padding-left:7rem">
+      <div class="card-mb-4"  style="width:30%; float:left;background-color: rgba(179, 120, 228, 0.281);">
         <img src="img/okulum.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text" style="color:rgba(255, 255, 255, 0.712);" >Hakkımda bahsedebileceğim çok şey var ancak bu hepsinin başında geliyor.
@@ -178,7 +178,7 @@
             Üstünden yıllar geçti, okulumun ismi değişti ve nitelikli liseler arasındaydı. Liseye geçeceğim dönem geldiğinde de o okulu kazandım ve 15 yılımın sonunda mezun oldum.</p>
         </div>
       </div>
-    <img src="img/hocam2.jpeg" style="float:left; width:29%;">
+    <img class="card-mb-4" src="img/hocam2.jpeg" style="float:left; width:29%;">
 </div>
 </center>
 

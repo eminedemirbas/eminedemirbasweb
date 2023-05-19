@@ -23,10 +23,12 @@ nav .logo p{
 }
 nav ul{
     float:right;
+    justify-content: space-around;
 }
 nav li{
     display:inline-block;
     list-style: none;
+    justify-content: space-around;
 }
 nav li a{
     font-size:18px;
@@ -34,8 +36,10 @@ nav li a{
     padding: 0px, 30px;
     color:white;
     text-decoration: none;
+    justify-content: space-around;
 }
 nav li a:hover{
     color:rgb(243, 197, 243);
     transition: all, 0.4s, ease 0s;
+    justify-content: space-around;
 }

@@ -9,7 +9,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
     $password = $_POST['password'];
     
     if($username == $user && $password == $pass) {
-        header('Location: http://127.0.0.1:5500/hakk%C4%B1mda.html ');
+        header('Location:hakkımda.php');
         exit;
     } else {
         echo "Kullanıcı adı veya şifre hatalı";
@@ -198,3 +198,11 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 
 </body>
 </html>
+
+<?php 
+
+include("baglanti.php");
+
+
+
+?>

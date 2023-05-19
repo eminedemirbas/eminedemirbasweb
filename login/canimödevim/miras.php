@@ -36,10 +36,13 @@
               görkemli <br>
         bir yöresel kıyafet zenginliğini bünyesinde barındırır.
 <br>
+      
+        <div>
         <img style="width:80%; border-radius: 10%; padding-top:2rem;" src="img/üçlü.jpeg">
         <img style="width:80%; border-radius: 10%; padding-top:2rem;" src="img/meryem.jpeg">
         <img style="width:80%; border-radius: 10%; padding-top:2rem;" src="img/elif.jpeg">
         <img style="width:80%; border-radius: 10%; padding-top:2rem;" src="img/üçlüü.jpeg">
+    </div>
     </div>
 
 
@@ -60,9 +63,12 @@
      iç gömlek, dış gömlek, cepken,
  koca don, peşkir, kemer, yün çorap ve ayakkabıdan oluşur.
 
+
+<div>
 <img style="width:30%; padding-top: 1rem; border-radius: 15%;" src="img/manav.jpg">
 <img style="width:30%; padding-top: 1rem; border-radius: 15%; padding-left: 1rem;;" src="img/manav3.jpg">
 <img  style="width:30%; padding-top: 1rem; border-radius: 15%; padding-left:1rem;"src="img/manav2.jpg" >
+</div>
 </div>
 
 <div class="ortaalt">
@@ -90,10 +96,14 @@
            kendine has hususiyetler taşımakta olup, özellikle 
            başgiyiminde Tahtacı köyleri arasında,
          farklılıklar olduğu görülmektedir. 
-        <img style="width:30%; padding-top: 1rem; border-radius: 15%;" src="img/tahtaci.jpg">
+       
+       
+        <div>
+         <img style="width:30%; padding-top: 1rem; border-radius: 15%;" src="img/tahtaci.jpg">
         <img style="width:30%; padding-top: 1rem; border-radius: 15%; padding-left: 1rem;;" src="img/tahtaci2.jpg">
         <img  style="width:30%; padding-top: 1rem; border-radius: 15%; padding-left:1rem;" src="img/tahtaci3.jpg" >
-        </div>
+    </div>
+    </div>
     
         <div class="ortaalt">
             <h4>Çepni Giyim </h4> Balıkesir Çepnileri’nin
