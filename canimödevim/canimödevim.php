@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="Styling Giriş.css">
     <title>ÖZGEÇMİŞ</title>
 </head>
-<body>
+<body style="background: url(img/arkaplan2.jpg);">
     <nav>
         <div class="logo">
             <p>HOŞGELDİNİZ</p>
         </div>
         <ul>
-            <li><a href="hakkımda.php">Hakkımda</a></li>
+            <li><a href="hak1.html">Hakkımda</a></li>
             <li><a href="canimödevim.php">Özgeçmiş</a></li>
+            <li><a href="hakkımda.html">Hobilerim</a></li>
             <li><a href="iletişim.php">İletişim</a></li>
             
             <li><a href="şehrim.php">Şehrim</a></li>
-            <li><a href="miras.php">Değerlerimiz</a></li>
+            <li><a href="miras.html">Değerlerimiz</a></li>
+            <li><a href="panel.php">Panel</a></li>
             <li><a href="index.php">Çıkış Yap</a></li>
         </ul>
     </nav>

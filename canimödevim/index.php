@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Styling Giriş.css">
     <title>GİRİŞ</title>
     <style>
         *{
@@ -141,6 +142,25 @@
     background-size: cover;
     font-family: sans-serif;">
     
+    <nav>
+    <div class="logo">
+        <p>HOŞGELDİNİZ</p>
+    </div>
+    <ul>
+    <li><a href="hak1.html">Hakkımda</a></li>
+        <li><a href="canimödevim.php">Özgeçmiş</a></li>
+        <li><a href="hakkımda.html">Hobilerim</a></li>
+        <li><a href="iletişim.php">İletişim</a></li>
+        <li><a href="şehrim.php">Şehrim</a></li>
+        <li><a href="miras.html">Değerlerimiz</a></li>
+        <li><a href="panel.php">Panel</a></li>
+        <li><a href="index.php">Çıkış Yap</a></li>
+    </ul>
+</nav>
+
+
+
+
     <div class="login-wrapper" style="height:100vh;
     width:100vw;
     display: flex;
@@ -189,7 +209,7 @@ if(isset($_POST["username"], $_POST["password"]))
         $_SESSION["user"]=$_POST["username"];
        
         echo "<script>alert('Hoşgeldiniz g221210062') 
-         window.location.href='../canimödevim/hakkımda.php';
+         window.location.href='hak1.html';
         </script>";
     }
     else

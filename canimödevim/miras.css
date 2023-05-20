@@ -1,0 +1,71 @@
+body{
+    background:url(img/arkaplan2.jpg);
+}
+.kenar{
+    width:25%;
+    background-color: rgba(134, 69, 143, 0.699);
+    margin:3rem;
+    margin-top:7rem;
+    border-radius: 2%;
+    height: 2295px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size:x-large;
+    float:left;
+    font-weight: 700;
+    
+
+}
+.başlık{
+    width:50%;
+    background-color: rgba(194, 126, 240, 0.158);
+    margin:3rem;
+    margin-top:7rem;
+    border-radius: 2%;
+    height: 125px;
+    text-align: center;
+    font-size:x-large;
+    float:left;
+    padding-top:1rem;
+    
+    
+}
+.orta{
+    width:50%;
+    background-color: rgba(194, 126, 240, 0.288);
+    margin:0.5rem;
+    border-radius: 2%;
+    height: 490px;
+    padding-left:1rem;
+    text-align:left;
+    font-size:21px;
+    float:left;
+    padding-top:1rem;
+    margin-left:2.5rem;
+}
+.ortaalt{
+    width:50%;
+    background-color: rgba(194, 126, 240, 0.397);
+    margin:2rem;
+    margin-top:2.5rem;
+    margin-left:2.5rem;
+    border-radius: 2%;
+    height: 490px;
+    padding-left:1rem;
+    text-align:left;
+    font-size:21px;
+    float:left;
+    padding-top:1rem;
+
+}
+
+
+/*cep telefonu için*/
+
+@media only screen and (max-width:768px){
+    .kenar{flex-wrap:wrap; width:20%; font-size: large;}
+    .başlık{flex-wrap: wrap; font-size:large; height: 135px;}
+    .orta{display:flex;flex-wrap: wrap; height:480px;}
+    .ortaalt{display:flex;flex-wrap: wrap;}
+
+}
