@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="özgeçmiş.css">
+    <link rel="stylesheet" href="Styling Giriş.css">
     <title>ÖZGEÇMİŞ</title>
 </head>
 <body>
@@ -13,10 +14,13 @@
             <p>HOŞGELDİNİZ</p>
         </div>
         <ul>
-            <li><a href="#">Hakkımda</a></li>
-            <li><a href="#">Özgeçmiş</a></li>
-            <li><a href="#">İletişim</a></li>
-            <li><a href="#">Değerlerimiz</a></li>
+            <li><a href="hakkımda.php">Hakkımda</a></li>
+            <li><a href="canimödevim.php">Özgeçmiş</a></li>
+            <li><a href="iletişim.php">İletişim</a></li>
+            
+            <li><a href="şehrim.php">Şehrim</a></li>
+            <li><a href="miras.php">Değerlerimiz</a></li>
+            <li><a href="index.php">Çıkış Yap</a></li>
         </ul>
     </nav>
     

@@ -1,23 +1,3 @@
-<?php
-ob_start();
- 
-$user = 'emine';
-$pass = '123';
-
-if(isset($_POST['username']) && isset($_POST['password'])){
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    
-    if($username == $user && $password == $pass) {
-        header('Location:hakkımda.php');
-        exit;
-    } else {
-        echo "Kullanıcı adı veya şifre hatalı";
-    }
-}
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +5,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>GİRİŞ</title>
     <style>
         *{
     margin: 0;
@@ -170,8 +150,8 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             <img src="https://www.animationmagazine.net/images/articles/mr_moon_150.gif" alt="" style="border-radius: 50%;">
             <h2>Giriş Yap</h2>
             <div class="input-group">
-                <input type="text" name="username" id="username" required>
-                <label for="username">Kullanıcı Adı</label>
+                <input type="email" name="username" id="username" required>
+                <label for="username">Kullanıcı Maili</label>
             </div>
             <div class="input-group">
                 <input type="password" name="password" id="password" required>
@@ -199,10 +179,23 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 </body>
 </html>
 
-<?php 
+<?php
+session_start();
 
-include("baglanti.php");
-
-
+if(isset($_POST["username"], $_POST["password"]))
+{
+    if($_POST["username"]=="g221210062@sakarya.edu.tr" && $_POST["password"]=="g221210062")
+    {
+        $_SESSION["user"]=$_POST["username"];
+       
+        echo "<script>alert('Hoşgeldiniz g221210062') 
+         window.location.href='../canimödevim/hakkımda.php';
+        </script>";
+    }
+    else
+    {
+        echo "<script>alert('Kullanıcı adı veya şifre yanlış')</script>";
+    }
+}
 
 ?>

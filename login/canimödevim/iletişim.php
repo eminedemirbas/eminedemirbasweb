@@ -6,8 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İLETİŞİM</title>
     <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="Styling Giriş.css"/>
+    <style>
+       
+    </style>
 </head>
 <body>
+<nav>
+        <div class="logo">
+            <p>HOŞGELDİNİZ</p>
+        </div>
+        <ul>
+            <li><a href="hakkımda.php">Hakkımda</a></li>
+            <li><a href="canimödevim.php">Özgeçmiş</a></li>
+            <li><a href="iletişim.php">İletişim</a></li>
+            <li><a href="şehrim.php">Şehrim</a></li>
+            <li><a href="miras.php">Değerlerimiz</a></li>
+            <li><a href="index.php">Çıkış Yap</a></li>
+        </ul>
+    </nav>
+
     <div class="container">
         <h3>İletişim Formu</h3>
         <form action="iletişim.php" method="POST">

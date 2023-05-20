@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="şehrim.css">
+  <link rel="stylesheet" href="Styling Giriş.css">
   <title>ŞEHRİM</title>
 </head>
 <body style="background-color:rgb(125, 93, 155);">
@@ -14,10 +15,12 @@
         <p>HOŞGELDİNİZ</p>
     </div>
     <ul>
-        <li><a href="#">Hakkımda</a></li>
-        <li><a href="#">Özgeçmiş</a></li>
-        <li><a href="#">İletişim</a></li>
-        <li><a href="#">Değerlerimiz</a></li>
+        <li><a href="hakkımda.php">Hakkımda</a></li>
+        <li><a href="canimödevim.php">Özgeçmiş</a></li>
+        <li><a href="iletişim.php">İletişim</a></li>
+        <li><a href="şehrim.php">Şehrim</a></li>
+        <li><a href="miras.php">Değerlerimiz</a></li>
+        <li><a href="index.php">Çıkış Yap</a></li>
     </ul>
 </nav>
 
