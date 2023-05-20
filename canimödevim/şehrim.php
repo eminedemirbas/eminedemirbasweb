@@ -34,17 +34,20 @@
   <center>
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
+
       <div class="carousel-item active">
-        <img src="img/cundaşehir.jpeg" class="d-block w-100" alt="...">
+     <a href=#cunda>   <img src="img/cundaşehir.jpeg" class="d-block w-100" alt="..."> </a>
+      </div>
+
+      <div class="carousel-item">
+      <a href=#ayvalık>  <img src="img/ayvallıkşehir.jpeg" class="d-block w-100" alt="..."> </a>
+      </div>
+
+      <div class="carousel-item">
+      <a href=#kuşcenneti> <img src="img/kuşcennetişehir.jpeg" class="d-block w-100" alt="..."> </a>
       </div>
       <div class="carousel-item">
-        <img src="img/ayvallıkşehir.jpeg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/kuşcennetişehir.jpeg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/kyzikosşehir.jpeg" class="d-block w-100" alt="...">
+      <a href=#kyzikos>  <img src="img/kyzikosşehir.jpeg" class="d-block w-100" alt="..."> </a>
       </div>
     </div>
    <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
@@ -81,7 +84,7 @@
 </div>
 
 <div class="mekan">
-  <h4>CUNDA</h4>
+  <h4 id="cunda" >CUNDA</h4>
   Ayvalık’a bağlı bir ada olan Cunda,
    Ege Denizi’nde yer alan eski bir Rum kasabası…
     Rumca “kokulu ada” Moshinos adıyla anılan Cunda Adası,
@@ -98,7 +101,7 @@
 </div>
 
 <div class="mekan">
-  <h4>ŞEYTAN SOFRASI</h4>
+  <h4 id="ayvalık">ŞEYTAN SOFRASI</h4>
   Balıkesir'de görülmesi gereken yerlerden birisi de Ayvalık
    ilçe merkezinin 10 km güney batısında bulunan,
     Küçükköy mahallesine bağlı olan Şeytan Sofrası.
@@ -111,7 +114,7 @@
 </div>
 
 <div class="mekan">
-  <h4>KUŞ CENNETİ</h4>
+  <h4 id="kuşcenneti" >KUŞ CENNETİ</h4>
   Kuş Cenneti, Türkiye'de özellikle de çeşitli göçmen
    kuşların meraklıları olan kişilerin ilgisini çeken 
    bir alan olarak öne çıkmaktadır. Hatta yurtdışından
@@ -124,7 +127,7 @@
 </div>
 
 <div class="mekan">
-  <h4>KYZİKOS ANTİK KENTİ</h4>
+  <h4 id="kyzikos" >KYZİKOS ANTİK KENTİ</h4>
   Gerek İstanbul’ u zaptetmek için Kyzikos’a gelen Araplar,
    gerekse depremler yüzünden zarar gören Kyzikos; 23 Eylül
     1063’de olan korkunç deprem neticesinde baştan başa yıkıldı.

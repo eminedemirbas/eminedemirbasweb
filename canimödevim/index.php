@@ -178,20 +178,9 @@
                 <label for="password">Şifre</label>
             </div>
             <input type="submit" value="Giriş" class="submit-btn">
-            <a href="#forgot-pw" class="forgot-pw">Şifremi Unuttum.</a>
+            
         </form>
-        <div id="forgot-pw">
-            <form action="" class="form">
-                <a href="#" class="close">&times;</a>
-                <h2>Şifreyi Yenile </h2>
-                <div class="input-group">
-                    <input type="email" id="email" required>
-                    <label for="email">email</label>
-
-                </div>
-                <input type="submit" value="Gönder" class="submit-btn">
-            </form>
-        </div>
+       
 
 
     </div>

@@ -37,7 +37,7 @@ nav ul{
 nav li{
     display:inline-block;
     list-style: none;
-    margin-left:50px
+    margin-left:50px;
 }
 nav li a{
     font-size:18px;
@@ -49,4 +49,60 @@ nav li a{
 nav li a:hover{
     color:rgb(243, 197, 243);
     transition: all, 0.5s, ease 0s;
+}
+
+/*responsive*/
+
+@media only screen and (max-width:760px){
+    nav li a{font-size:3px;}
+    nav .logo p{font-size:10px;}
+    nav li{margin-left:5px;}
+}
+
+
+
+@media only screen and (max-width:540px){
+    nav li a{font-size:3px;}
+    nav .logo p{font-size:5px;}
+
+}
+@media only screen and (max-width:1750px){
+    nav li a{font-size:15px;}
+    nav .logo p{font-size:20px;}
+
+}
+@media only screen and (max-width:1550px){
+    nav li a{font-size:12px;}
+    nav .logo p{font-size:15px;}
+
+}
+@media only screen and (max-width:1378px){
+    nav li a{font-size:10px;}
+    nav .logo p{font-size:14px;}
+
+}
+@media only screen and (max-width:1291px){
+    nav li a{font-size:10px;}
+    nav .logo p{font-size:0px;}
+
+}
+@media only screen and (max-width:1195px){
+    nav li a{font-size:8px;}
+    nav .logo p{font-size:0px;}
+
+}
+@media only screen and (max-width:1111px){
+    nav li a{font-size:6px;}
+    nav .logo p{font-size:0px;}
+    
+}
+@media only screen and (max-width:1035px){
+    nav li a{font-size:4px;}
+    nav .logo p{font-size:0px;}
+    
+}
+@media only screen and (max-width:951px){
+    nav li a{font-size:10px;}
+    nav .logo p{font-size:15px;}
+
 }
